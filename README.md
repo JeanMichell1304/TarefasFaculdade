@@ -176,3 +176,30 @@ Através de um simples **JOptionPane**, o usuário insere seus dados e o program
 **Exemplo 1:**
 
 **Entrada:**
+    Idade: 62 anos 
+    Sexo: Feminino 
+    Anos de contribuição: 32
+
+    
+**Saída:**
+    Você já pode se aposentar por ambos os critérios!
+
+    
+---
+
+**Exemplo 2:**
+
+**Entrada:**
+    Idade: 55 anos 
+    Sexo: Masculino 
+    Anos de contribuição: 33
+
+    
+**Saída:**
+    Faltam 10 anos para se aposentar por idade 
+    Faltam 2 anos para se aposentar por tempo de contribuição
+
+    
+---
+
+
