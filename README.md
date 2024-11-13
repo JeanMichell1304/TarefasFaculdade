@@ -199,11 +199,6 @@ Através de um simples **JOptionPane**, o usuário insere seus dados e o program
     Faltam 10 anos para se aposentar por idade 
     Faltam 2 anos para se aposentar por tempo de contribuição
 
-    
----
-
-
-
 ---
 
 ## 5. Circuito de Resistências
