@@ -203,3 +203,89 @@ Através de um simples **JOptionPane**, o usuário insere seus dados e o program
 ---
 
 
+
+---
+
+## 5. Circuito de Resistências
+
+### Descrição
+
+Este programa calcula a resistência equivalente de um circuito em série com base em quatro resistências fornecidas pelo usuário. Além disso, ele exibe a maior e a menor resistência do circuito.
+
+### Como funciona:
+
+1. O programa solicita ao usuário as quatro resistências.
+2. O programa calcula a resistência equivalente somando os valores das resistências.
+3. O programa identifica e exibe a maior e a menor resistência.
+
+### Como executar:
+
+1. Compile o código:
+
+    ```bash
+    javac CircuitoResistencias.java
+    ```
+
+2. Execute o programa:
+
+    ```bash
+    java CircuitoResistencias
+    ```
+
+### Exemplo de entrada e saída:
+
+**Entrada:**
+
+ Resistência 1: 5.0 Resistência 2: 10.0 Resistência 3: 3.0 Resistência 4: 8.0
+ 
+**Saída:**
+
+ Resistência Equivalente: 26.0 Maior Resistência: 10.0 Menor Resistência: 3.0
+ 
+---
+
+## 5. Sistema de Login
+
+### Descrição
+
+Este programa simula o acesso a um sistema solicitando **login** e **senha**. O usuário tem **3 tentativas** para acertar, e o sistema compara os dados inseridos com os valores corretos: **"java8"**. O programa exibe mensagens de erro informativas a cada falha.
+
+### Como funciona:
+
+1. O programa solicita ao usuário que informe:
+    - **Login**.
+    - **Senha**.
+2. O programa compara os dados inseridos com os valores corretos (**"java8"** para login e senha).
+3. O usuário tem até **3 tentativas** para acertar, com mensagens de erro a cada falha.
+
+### Como executar:
+
+1. Compile o código:
+
+    ```bash
+    javac SistemaDeLogin.java
+    ```
+
+2. Execute o programa:
+
+    ```bash
+    java SistemaDeLogin
+    ```
+
+### Exemplo de entrada e saída:
+
+**Entrada:**
+    Login: java8
+    Senha: java8
+
+    
+**Saída:**
+    Login bem-sucedido!
+
+**Entrada (tentativa falha):**
+    Login: admin
+    Senha: 1234
+
+    
+**Saída:**
+    Login ou senha incorretos. Você tem 2 tentativa(s) restante(s).
