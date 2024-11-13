@@ -239,7 +239,7 @@ Este programa calcula a resistência equivalente de um circuito em série com ba
  
 ---
 
-## 5. Sistema de Login
+## 6. Sistema de Login
 
 ### Descrição
 
@@ -287,7 +287,7 @@ Este programa simula o acesso a um sistema solicitando **login** e **senha**. O 
 
 ---
 
-## 6. Gerador de Tabuada
+## 7. Gerador de Tabuada
 
 ### Descrição
 
