@@ -289,3 +289,52 @@ Este programa simula o acesso a um sistema solicitando **login** e **senha**. O 
     
 **Saída:**
     Login ou senha incorretos. Você tem 2 tentativa(s) restante(s).
+
+---
+
+## 6. Gerador de Tabuada
+
+### Descrição
+
+Este programa solicita ao usuário um número e gera a **tabuada** desse número, apresentando os resultados de multiplicação de 1 a 10.
+
+### Como funciona:
+
+1. O programa solicita ao usuário que informe um **número**.
+2. Utilizando um **loop** (for), o programa gera a tabuada desse número de 1 a 10.
+3. O programa exibe a tabuada no formato **número x i = resultado**, para i variando de 1 até 10.
+
+### Como executar:
+
+1. Compile o código:
+
+    ```bash
+    javac GeradorTabuada.java
+    ```
+
+2. Execute o programa:
+
+    ```bash
+    java GeradorTabuada
+    ```
+
+### Exemplo de entrada e saída:
+
+**Entrada:**
+    Digite um número para gerar sua tabuada: 5
+
+    
+**Saída:**
+    Tabuada do 5:
+    5 x 1 = 5
+    5 x 2 = 10
+    5 x 3 = 15
+    5 x 4 = 20
+    5 x 5 = 25
+    5 x 6 = 30
+    5 x 7 = 35
+    5 x 8 = 40
+    5 x 9 = 45
+    5 x 10 = 50
+
+---
